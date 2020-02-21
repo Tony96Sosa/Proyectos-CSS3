@@ -20,13 +20,20 @@
 	padding-right: 5px;
 	}
 	.wap{
-		height: 1730px;
+		height: 1630px;
+	}
+	figure{
+		/*background: #66ccff;*/
+		width: 90%;
+		float: left;
+		margin: 15px;
 	}
 	figure img{
-		margin-left: 40px;
+		margin-left:60px;
+
 	}
 	figcaption{
-		margin-left: 40px;
+		margin: auto;
 	}
 	footer{
 	margin-top: 10px;
