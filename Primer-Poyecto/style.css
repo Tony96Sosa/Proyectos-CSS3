@@ -1,0 +1,22 @@
+body {
+	background-color: #ffd966
+}
+#cabeceraweb{
+	background-color: #ff99dd;
+}
+#navegacionprincipal{
+	background-color: #ccffb3;
+}
+#barralateral{
+	background-color: #cceeff;
+}
+#contenido{
+	background-color: #b3b3ff;
+}
+#piedepagina{
+	background-color: #ecb3ff;
+}
+li{
+	background-color: #ffff99;
+	display: inline;
+}
