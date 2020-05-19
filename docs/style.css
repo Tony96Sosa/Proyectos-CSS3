@@ -1,0 +1,78 @@
+
+body{
+	margin: 0;
+	font-family: sans-serif;
+	background-color: #66ff66;
+	color: #eeeeee;
+	height: 700px;
+}
+img{
+	max-width: 80%;
+}
+.card{
+	background-color: #333333;
+	width: 50%;
+	height: 450px;
+	display: flex;
+	margin: 20px auto;
+}
+.card__left{
+	width: 20%;
+	display: flex;
+	align-items: flex-end;
+	padding: 10px 0;
+	background-color: #222222;
+	justify-content: center;
+	box-sizing: border-box;
+}
+.card__right{
+	width: 80%;
+	padding: 0 10px;
+}
+.card__title{
+	text-transform: uppercase;
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 350px;
+}
+.form__field{
+	display: flex;
+	flex-direction: column;
+}
+.form__names{
+	display: flex;
+	justify-content: space-between;
+}
+.form__names input{
+	width: 250px;
+}
+.form__label{
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-size: 17px;
+}
+.form__input, .form__textarea{
+	background: none;
+	border: none;
+	border-bottom: 2px solid #eeeeee;
+	color: inherit;
+}
+.form__textarea{
+	resize: none;
+	border: 2px solid #eeeeee;
+	height: 100px;
+}
+.form__submit{
+	width: 40%;
+	background-color: #00bfff;
+	border: none;
+	padding: 10px;
+	border-radius: 18px;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: inherit;
+	outline: none;
+}
